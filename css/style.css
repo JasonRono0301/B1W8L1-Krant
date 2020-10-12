@@ -5,4 +5,33 @@
 
 .grid-container{
     display: grid;
+    grid-template-columns:  300px 300px 300px auto;
+    grid-row: 200px 200px auto;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.grid-menu{
+   grid-row: 1;
+   grid-column: 1;
+}
+
+.grid-banner{
+    grid-row: 2;
+}
+
+.grid-commando{
+    grid-row: 3;
+    padding-left: 10px;
+}
+
+.grid-max-verstappen{
+    grid-row: 3;
+    grid-column: 2;
+  
+}
+
+.grid-net-binnen{
+    grid-row: 3;
+    grid-column: 3;
 }
